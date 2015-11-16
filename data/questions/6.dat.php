@@ -1,0 +1,3 @@
+<?php exit;?>
+
+{"name":"\u0427\u0442\u043e \u043e\u0437\u043d\u0430\u0447\u0430\u0435\u0442 \u044d\u0442\u043e\u0442 \u0443\u0437\u043e\u0440?","img":"img\/Janocha_dola.jpg"}

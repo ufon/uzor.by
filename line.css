@@ -1,0 +1,176 @@
+	.wello {
+min-height: 20px;
+padding: 19px;
+margin-bottom: 20px;
+background-color: #F7F7F7;;
+}
+div.list-group-item {
+    height:auto;
+	min-height:60px
+}
+div.list-group-item.active small {
+    color:#fff;
+}
+.stars {
+    margin:20px auto 1px;    
+}
+
+.timeline {
+  max-width: 1200px;
+  width: 100%;
+  left: 25%;
+  top: 50%;
+}
+.selected {
+height: 20px;
+width: 20px;
+
+}
+
+.timeline-bar {
+  position: relative;
+  background: #888888;
+  height: 5px;
+  width: 100%;
+}
+.timeline-point {
+  top:-5px;
+  border-radius: 15px;
+  display: block;
+  background: #ff6347;
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  z-index: 10;
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+  cursor: pointer;
+}
+.timeline-point:hover {
+  -webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  -o-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+.timeline-pointch {
+    top: -12px;
+  border-radius: 15px;
+  display: block;
+  background: #47C234;
+  position: absolute;
+  height: 30px;
+  width: 30px;
+margin-left: -8px;
+padding: 5px;
+  z-index: 11;
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+  cursor: pointer;
+}
+.timeline-pointch:hover {
+  -webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  -o-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+
+
+
+
+.timeline-pointen {
+  top: -7px;
+  border-radius: 15px;
+  display: block;
+  background: #3487C2;
+  position: absolute;
+  height: 20px;
+  width: 20px;
+margin-left: -17px;
+padding: 5px;
+  z-index: 11;
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+  cursor: pointer;
+}
+.timeline-pointen:hover {
+  -webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  -o-transform: scale(1.3);
+  transform: scale(1.3);
+}
+.point-1 {
+  left: 0;
+
+}
+.point-2 {
+  left: 10%;
+
+}
+.point-3 {
+  left: 20%;
+
+}
+.point-4 {
+  left: 30%;
+
+}
+.point-5 {
+  left: 40%;
+}
+.point-6 {
+  left: 50%;
+
+}
+.point-7 {
+  left: 60%;
+
+}
+.point-8 {
+  left: 70%;
+
+}
+.point-9 {
+  left: 80%;
+
+}
+.point-10 {
+  left: 90%;
+
+}
+.point-en {
+  left: 100%;
+
+}
+/* Tooltips */
+.timeline-point[data-tooltip] {
+  position: relative;
+  cursor: pointer;
+}
+.timeline-point[data-tooltip]:after {
+  content: attr(data-tooltip);
+  background: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  border-radius: 2px;
+  padding: 5px 10px;
+  font-size: 13px;
+  border: none;
+  color: #fff;
+  bottom: 150%;
+  left: -100%;
+  display: none;
+  z-index: 999;
+}
+.timeline-point[data-tooltip]:hover:after {
+  display: block;
+}
